@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SD-WAN Demo | CBB</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>SD-WAN Demo</h1>
+        <h2>Cincinnati Bell</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dualwan.html" class="selected">Dual WAN</a></li>
+          <li><a href="singlewan.html">Single WAN</a></li>
+        </ul>
+      </nav>
+    </header>
+      <main class="flex">
+      <div id="primary2">
+       
+      </div>  
+      <div id="secondary2"class="card">
+        <button type="button" id="btn" class="btn active"><span id="startTest">Start Test</span></button>
+        <div id="status">
+            <span id="statusText">
+              Click the "Start Test" button to the left to begin the demo.
+            </span>
+        </div>
+        <div id="metrics">
+          <table id="T01">
+            <caption></caption>
+          <tr>
+            <th>Packet Loss</th>
+            <th>Delay</th> 
+            <th>Jitter</th>
+          </tr>
+          <tr>
+            <td><span id="totalPacketLoss">0 %</span></td>
+            <td><span id="totalLatency">0 ms</span></td> 
+            <td><span id="totalJitter">0 ms</span></td>
+          </tr>
+        </table>
+        </div>
+      </div>
+      <div id="secondary3" class="card2">
+        <img src="img\SD-WAN Demo Revised.svg">
+      </div>
+    </main>
+    
+     
+    <footer>
+        <a href="http://twitter.com/cincinnatibell"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="http://facebook.com/cincinnatibell"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p>&copy; 2016 Cincinnati Bell, Inc.</p>
+    </footer>
+    <script src="js/vendor/jquery-3.1.1.js"></script>
+    <script src="js/testCase1.js"></script>
+  </body>
+ 
+  
+</html>

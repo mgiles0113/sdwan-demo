@@ -1,0 +1,95 @@
+@media screen and (min-width: 1px) {
+  
+/************************
+TWO COLUMN LAYOUT
+************************/
+
+#primary {
+    width: 50%;
+    float: left;
+  }  
+
+#secondary {
+    width: 45%;
+    float: right;
+  }  
+  
+#primary h3 {
+  font-size: 1.75em;
+}
+
+#secondary h3 {
+  font-size: 1.75em;
+  
+}  
+
+#primary2 {
+    width: 20%;
+    margin: 0 auto;
+  }  
+  
+
+#secondary2 {
+    width: 65%;
+    height: 350px;
+    margin: 0 17% 0 10px;
+
+  }  
+  
+  #secondary3 {
+    width: 65%;
+    height: 400px;
+    margin: 25px 17% 0 0;
+  }
+
+  
+}
+
+@media screen and (min-width: 660px) {
+
+      /************************
+PAGE: HEADER
+************************/
+ 
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    
+  }
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px; 
+  }
+  
+  header {
+
+    margin-bottom: 60px;
+  }
+  
+  #primary2 {
+    float: left;
+  }
+  
+#secondary2 {
+    width: 65%;
+    height: 200px;
+    margin: 0 17% 0 10px;
+
+  }  
+}
